@@ -114,6 +114,7 @@ li a {
     color: #777777;
     font-family: roboto, sans-serif;
     font-weight: 400;
+    align-items: baseline;
 }
 
 main ul li {
@@ -170,7 +171,7 @@ i:hover {
 .experience-items {
     display: grid;
     grid-template-columns: 40% 50%;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     /*justify-content: space-around;
     align-items: center;*/
 }
@@ -195,6 +196,15 @@ i:hover {
 
 .experience-details > h5 {
     font-size: 16px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.experience-details > p {
+    font-size: 15px;
     font-family: roboto, sans-serif;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.75);
