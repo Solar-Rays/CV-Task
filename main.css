@@ -149,8 +149,8 @@ i:hover {
 .experience-title {
     width: 80%;
     margin: auto;
-    padding-top: 2rem;
-    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
 }
 
 .experience-container {
