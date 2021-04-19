@@ -216,3 +216,70 @@ i:hover {
     letter-spacing: 0.8px;
     color: rgba(255, 255, 255, 0.75);
 }
+
+.education {
+    background-color: #f9f9ff;
+} 
+
+.education-title {
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-family: heebo, sans-serif;
+    font-size: 25px;
+}
+
+.education-container {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.education-continer > div {
+    text-align: start;
+    padding-left: 7rem;
+}
+
+.education-items {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.education-date {
+    width: 100%;
+    margin-left: 8%;
+    font-size: 20.25px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    /*color: rgba(255, 255, 255, 0.75);*/
+}
+
+.education-details > h4 {
+    /*color: #fff;*/
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: heebo, sans-serif;
+    font-weight: 700;
+}
+
+.education-details > h5 {
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    /*color: rgb(255, 255, 255);*/
+    margin-bottom: 10px;
+}
+
+.education-details > p {
+    font-size: 15px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    /*color: rgba(255, 255, 255, 0.75);*/
+} 
+
+
