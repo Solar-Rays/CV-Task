@@ -231,9 +231,12 @@ i:hover {
 }
 
 .education-container {
-    width: 80%;
-    margin: auto;
-    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;   
+    flex-wrap: wrap;
 }
 
 .education-continer > div {
@@ -242,9 +245,8 @@ i:hover {
 }
 
 .education-items {
-    width: 40%;
-    height: 40%;
-    margin: auto;
+    width: 13rem;
+    height: 13rem;
     background-color: white;
     box-shadow: 2px 2px 8px #7c9cff;
     border-radius: 7px;
