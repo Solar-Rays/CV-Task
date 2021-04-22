@@ -255,6 +255,11 @@ i:hover {
     margin-top: 1rem;
 }
 
+.hover-card {
+    font-size: 2.5em; 
+    color: lightgrey;
+}
+
 .education-items:hover{
     box-shadow: 3px 3px 10px #7c9cff;
 }
@@ -292,7 +297,7 @@ i:hover {
     font-weight: 400;
     text-transform: uppercase;
     /*color: rgb(255, 255, 255);*/
-    margin-bottom: 10px;
+    margin-bottom: 0.8rem;
 }
 
 .education-details > p {
@@ -305,7 +310,7 @@ i:hover {
 
 .education-items .material-icons {
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2.5em;
     color: lightgrey;
 }
 
