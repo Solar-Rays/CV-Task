@@ -314,6 +314,10 @@ i:hover {
     color: lightgrey;
 }
 
+.skill-container {
+    margin-bottom: 4rem;
+}
+
 .skill-title {
     width: 80%;
     margin: auto;
@@ -328,16 +332,30 @@ i:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .skills-img {
-    width: 40%;
-    height: auto;
-    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    justify-content: center;
+    background-image: linear-gradient(90deg,#766dff 0%,#88f3ff 100%);
+    border-radius: 50%;
 }
 
 .skills-img img {
-    width: 20rem;
+    width: 26rem;
     height: auto;
+    padding-left: 3rem;
+    margin-top: -2rem;
+}
 
+.skills-items li {
+    list-style-type: none;
+    background-color: white;
+    box-shadow: 2px 2px 8px  #7c9cff;
+    margin-bottom: .8rem;
+    border-radius: 5px;
+    padding: .8rem .5rem;
+    width: 20rem;
 }
