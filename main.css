@@ -242,8 +242,12 @@ i:hover {
 }
 
 .education-items {
-    display: grid;
-    grid-template-columns: 40% 50%;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 2px 2px 8px #7c9cff;
+    border-radius: 7px;
     padding: 1rem 2rem 2rem 2rem;
 }
 
