@@ -314,4 +314,30 @@ i:hover {
     color: lightgrey;
 }
 
+.skill-title {
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-family: heebo, sans-serif;
+    font-size: 25px;
+}
 
+.skill-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills-img {
+    width: 40%;
+    height: auto;
+    align-items: center;
+}
+
+.skills-img img {
+    width: 20rem;
+    height: auto;
+
+}
