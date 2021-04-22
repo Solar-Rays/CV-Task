@@ -237,6 +237,8 @@ i:hover {
     width: 95%;
     margin: auto;   
     flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 .education-continer > div {
@@ -248,9 +250,13 @@ i:hover {
     width: 13rem;
     height: 13rem;
     background-color: white;
-    box-shadow: 2px 2px 8px #7c9cff;
     border-radius: 7px;
     padding: 1rem 2rem 2rem 2rem;
+    margin-top: 1rem;
+}
+
+.education-items:hover {
+    box-shadow: 3px 3px 10px #7c9cff;
 }
 
 .education-date {
