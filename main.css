@@ -23,8 +23,8 @@ nav {
 }
 
 .logo {
-    width: 10%;
-    height: auto;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
 }
 
@@ -498,4 +498,44 @@ form .btn:hover {
 
 .links i:hover {
     color: #007bff;
+}
+
+
+@media only screen and (max-width: 972px) {
+    .profile {
+        padding-left: 3rem;
+    }
+
+    .profile-text {
+        padding-right: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        padding-left: 2rem;
+        padding-right: 0;
+
+    }
+
+    .profile-name {
+        font-size: 35px;
+    }
+
+    .profile-text {
+        padding-right: 1.3rem;
+        margin-bottom: 1.2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 665px) {
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .line-one {
+        margin-top: .8rem;
+    }
 }
