@@ -19,15 +19,16 @@
                 <img src="https://res.cloudinary.com/solarrays/image/upload/v1619894116/Portfolio%20Website/AR_Solarin_Logo_dw9iag.png"
                     alt="Site logo" class="logo">
             </a>
-            <div>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#experience">EXPERIENCE</a></li>
-                    <li><a href="#education">EDUCATION</a></li>
-                    <li><a href="#skill">SKILLS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
+            <ul class="nav-links" id="links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#skill">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" style="font-size: 1.5rem; font-weight: 500;"></i>
+            </a>
 
         </nav>
     </header>
@@ -262,7 +263,8 @@
             <div class="about">
                 <h3>About Me</h3>
                 <p>
-                    I am a passionate individual looking for opportunities to contribute to the success of an institution that provides
+                    I am a passionate individual looking for opportunities to contribute to the success of an
+                    institution that provides
                     opportunities for creativity. To learn from the experience and contribute my knowledge as best as I
                     can.
                 </p>
@@ -274,7 +276,7 @@
                 <form>
                     <input type="text" name="fname" id="fname" placeholder="Johnson Taylor" class="name"> <br>
 
-                    <input type="email" name="email" id="email" placeholder="your@email.com" class="email"> <br> 
+                    <input type="email" name="email" id="email" placeholder="your@email.com" class="email"> <br>
 
                     <textarea name="comment" id="comment" class="comment" placeholder="Your message"></textarea> <br>
 
@@ -291,11 +293,11 @@
                     <a href="https://twitter.com/AyomideSolarin">
                         <i class="fab fa-twitter"></i>
                     </a>
-    
+
                     <a href="https://www.linkedin.com/in/ayomide-raymond-38a58319b/">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-    
+
                     <a href="https://www.instagram.com/solarinayo">
                         <i class="fab fa-instagram"></i>
                     </a>
@@ -303,6 +305,16 @@
             </div>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 
