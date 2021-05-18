@@ -4,6 +4,7 @@
   padding:0;
 }
 
+/* Styling for index.html*/
 html {
     scroll-behavior: smooth;
   }
@@ -24,7 +25,7 @@ nav {
 
 .logo {
     width: 3rem;
-    height: auto;
+    height: 3rem;
     border-radius: 50%;
 }
 
@@ -500,51 +501,121 @@ form .btn:hover {
     color: #007bff;
 }
 
+
+@media only screen and (max-width: 972px) {
+    .profile {
+        padding-left: 3rem;
+    }
+
+    .profile-text {
+        padding-right: 4rem;
+    }
+
+    .experience-title {
+        width: 85%;
+    }
+
+    .experience-container {
+        width: 85%;
+        padding-top: 1rem;
+    }
+
+    .experience-items {
+        padding: 1rem 0 1.5rem 0;
+    }
+
+    .experience-details {
+        padding-left: 1rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
-    body {
+    .profile {
+        padding-left: 2rem;
+        padding-right: 0;
 
     }
-    .nav-bar {
-        overflow: hidden;
-        background-color: black;
-        position: relative;
+
+    .profile-name {
+        font-size: 35px;
     }
 
-    .nav-bar #links {
-        display: none;
-        padding-top: 2.5rem;
+    .profile-text {
+        padding-right: 1.3rem;
+        margin-bottom: 1.2rem;
     }
 
-    .nav-bar a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
+    .experience-title {
+        width: 90%;
+        font-size: 1.3rem;
+    }
 
-      .nav-bar a.icon {
-        background: #304353;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 4rem;
-        height: 3.7rem;
-        padding-top: 1.3rem;
-        padding-left: 1.2rem;
-        margin-right: 1.1rem;
-      }
+    .experience-container {
+        padding-top: 1rem;
+    }
 
-      .nav-bar a:hover {
-        background-color: rgb(61, 83, 102);
-        color: white;
-      }
+    .experience-items {
+        padding: 1.7rem 0;
+    }
 
-      .active {
-        background-color: #04AA6D;
-        color: white;
-      }
-
+    .experience-details {
+        padding-left: 1.5rem;
+    }
 
 }
+
+
+@media only screen and (max-width: 665px) {
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .line-one {
+        margin-top: .8rem;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .experience-container {
+        padding-top: 0;
+        width: auto;
+    }
+    
+    .experience-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-bottom: 1px solid white;
+    }
+
+    .experience-date {
+        margin-left: 0;
+        padding-left: 1rem;
+        padding-bottom: .6rem;
+    }
+
+    .experience-date h5 {
+        font-size: .83rem;
+    }
+
+    .experience-details{
+        padding: 0 1rem;
+    }
+
+    .experience-details > h4 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+    }
+
+    .experience-details > h5 {
+        margin-bottom: .5rem;
+    }
+
+    #last-exp-item {
+        border-bottom: 0;
+    }
+}
+
+
+/*Styling for the portfolio page*/
+
