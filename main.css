@@ -382,6 +382,42 @@ i:hover {
     box-shadow: 3px 3px 10px  #7c9cff;
 }
 
+#skill-html {
+    margin-left: -9rem;
+}
+
+#skill-graphics {
+    margin-left: -7rem;
+}
+
+#skill-adobe {
+    margin-left: -5rem;
+}
+
+#skill-comm {
+    margin-left: -3rem;
+}
+
+#skill-prob {
+    margin-left: -1rem;
+}
+
+#skill-think {
+    margin-left: -3rem;
+}
+
+#skill-create {
+    margin-left: -5rem;
+}
+
+#skill-org {
+    margin-left: -7rem;
+}
+
+#skill-office {
+    margin-left: -9rem;
+}
+
 .to-top-btn {
     background-color: #272e77;
     width: 5em;
