@@ -537,6 +537,53 @@ form .btn:hover {
     color: #007bff;
 }
 
+@media only screen and (max-width: 1024px) {
+    #skill-html {
+        margin-left: -7rem;
+    }
+    
+    #skill-graphics {
+        margin-left: -5rem;
+    }
+    
+    #skill-adobe {
+        margin-left: -3rem;
+    }
+    
+    #skill-comm {
+        margin-left: -1rem;
+    }
+    
+    #skill-prob {
+        margin-left: 1rem;
+    }
+    
+    #skill-think {
+        margin-left: -1rem;
+    }
+    
+    #skill-create {
+        margin-left: -3rem;
+    }
+    
+    #skill-org {
+        margin-left: -5rem;
+    }
+    
+    #skill-office {
+        margin-left: -7rem;
+    }
+    
+    .skills-img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .skills-img img {
+        width: 20rem;
+        height: auto;
+    }
+}
 
 @media only screen and (max-width: 972px) {
     .profile {
@@ -562,6 +609,25 @@ form .btn:hover {
 
     .experience-details {
         padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .skills-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .skills-img img {
+        width: 15rem;
+        height: auto;
+    }
+    
+    .skills-items li {
+        margin-bottom: .5rem;
+        padding: .5rem .3rem;
+        width: 17rem;
+        font-size: .85rem;
     }
 }
 
