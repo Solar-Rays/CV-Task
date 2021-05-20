@@ -720,12 +720,12 @@ form .btn:hover {
     }
 
     form .comment, form .email {
-        width: 100%;
+        width: 94%;
         margin-top: .8rem;
     }
 
     form .name {
-        width: 100%;
+        width: 94%;
         margin-top: 1rem;
     }
 
