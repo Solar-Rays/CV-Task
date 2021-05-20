@@ -452,6 +452,7 @@ button p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 4rem 2rem 3rem 2rem;
 }
 
@@ -503,7 +504,7 @@ form .comment {
 }
 
 form .btn {
-    width: 15%;
+    width: 4rem;
     height: 2rem;
     background-image: linear-gradient(90deg,#766dff 0%,#88f3ff 100%);
     color: whitesmoke;
@@ -621,6 +622,7 @@ form .btn:hover {
     .skills-img img {
         width: 15rem;
         height: auto;
+        margin-top: -1rem;
     }
     
     .skills-items li {
@@ -664,6 +666,29 @@ form .btn:hover {
         padding-left: 1.5rem;
     }
 
+    .skill-content {
+        flex-direction: column;
+
+    }
+
+    .links i {
+        padding-right: .8rem;
+    }
+
+    form .btn {
+        width: 4rem;
+    }
+
+    .about{
+        margin-right: 3rem;
+    }
+
+    .social{
+        width: 20%;
+    }
+    .contact-container{
+        padding: 4rem 1rem 3rem 1rem;
+    }
 }
 
 
@@ -675,6 +700,43 @@ form .btn:hover {
     .line-one {
         margin-top: .8rem;
     }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .contact-container h3{
+        margin-bottom: 0;
+    }
+
+    .about, .form, .social {
+        width: 90%;
+        margin: auto;
+    }
+
+    .form, .social {
+        margin-top: 2rem;
+    }
+
+    form .comment, form .email {
+        width: 100%;
+        margin-top: .8rem;
+    }
+
+    form .name {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .social p {
+        display: none;
+    }
+
+    .links {
+        padding-top: 1rem;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
