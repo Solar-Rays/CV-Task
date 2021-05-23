@@ -11,32 +11,59 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="topnav ">
             <a href="index.html">
                 <img src="https://res.cloudinary.com/solarrays/image/upload/v1619894116/Portfolio%20Website/AR_Solarin_Logo_dw9iag.png"
                     alt="Site logo" class="logo">
             </a>
-            <ul class="nav-links" id="links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="index.html#experience">EXPERIENCE</a></li>
-                <li><a href="index.html#education">EDUCATION</a></li>
-                <li><a href="index.html#skill">SKILLS</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <div class="nav-links" id="links">
+                    <a href="index.html">HOME</a>
+                    <a href="index.html#experience">EXPERIENCE</a>
+                    <a href="index.html#education">EDUCATION</a>
+                    <a href="index.html#skill">SKILLS</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="#contact">CONTACT</a>
+            </div>
+            
         </nav>
     </header>
 
     <main>
-        <div>
-            <h3>The Journey So Far...</h3>
-            <p>Some of my previous work</p>
+        <p class="back-header"></p>
+        <div class="portfolio-welcome">
+            <div class="overlay">
+                <h3>The Journey So Far...</h3>
+                <p>Some of my previous work</p>
+            </div>
         </div>
 
-        <div>
-            <h1>Coming Soon... </h1>
+        <div class="main-body-container">
+                <div>
+                    <h3>Site</h3>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus optio dolorum a harum, possimus reiciendis ut expedita magni id soluta reprehenderit dicta natus dolore sequi maxime, architecto facere ullam?</h5>
+                    <p>Coming soon...</p>
+                </div>
+
+                <div>
+                    <h3>Site</h3>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus optio dolorum a harum, possimus reiciendis ut expedita magni id soluta reprehenderit dicta natus dolore sequi maxime, architecto facere ullam?</h5>
+                    <p>Coming soon...</p>
+                </div>
+                
+                <div>
+                    <h3>Site</h3>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus optio dolorum a harum, possimus reiciendis ut expedita magni id soluta reprehenderit dicta natus dolore sequi maxime, architecto facere ullam?</h5>
+                    <p>Coming soon...</p>
+                </div>
+                
         </div>
+
+
     </main>
 
     <footer class="footer" id="contact">
@@ -86,6 +113,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>

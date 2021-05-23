@@ -14,20 +14,25 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="topnav ">
             <a href="index.html">
                 <img src="https://res.cloudinary.com/solarrays/image/upload/v1619894116/Portfolio%20Website/AR_Solarin_Logo_dw9iag.png"
                     alt="Site logo" class="logo">
             </a>
-            <ul class="nav-links" id="links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#experience">EXPERIENCE</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#skill">SKILLS</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <div class="nav-links" id="links">
+                    <a href="index.html">HOME</a>
+                    <a href="#experience">EXPERIENCE</a>
+                    <a href="#education">EDUCATION</a>
+                    <a href="#skill">SKILLS</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="#contact">CONTACT</a>
+            </div>
+            
         </nav>
     </header>
     <section id="main-bg" class="main-bg">
@@ -230,7 +235,7 @@
                     <ul>
                         <li id="skill-html">HTML, CSS and JavaScript</li>
                         <li id="skill-graphics">Graphics design </li>
-                        <li id="skill-adobe">Adobe Photoshop and Adobe Lightroom</li>
+                        <li id="skill-adobe">Adobe Photoshop and Lightroom</li>
                         <li id="skill-comm">Written and verbal communication</li>
                         <li id="skill-prob">Problem solving </li>
                         <li id="skill-think">Critical Thinking </li>
@@ -303,6 +308,7 @@
             </div>
         </div>
     </footer>
+
     <script>
         function myFunction() {
             var x = document.getElementById("links");

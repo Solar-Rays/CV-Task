@@ -21,6 +21,7 @@ nav {
     justify-content: space-between;
     padding: 1.5em;
     align-items: center;
+    height: 2.5rem;
 }
 
 .logo {
@@ -29,17 +30,22 @@ nav {
     border-radius: 50%;
 }
 
-nav ul li{
+.nav-links a{
     list-style-type: none;
     display: inline-flex;
     justify-content: space-evenly;
     margin-right: 30px;
 }
 
-nav ul {
+.nav-links {
     flex-wrap: nowrap;
 }
-li a {
+
+.icon {
+    display: none;
+}
+
+#links a {
     text-decoration: none;
     color: white;
     font-size: 1em;
@@ -634,6 +640,36 @@ form .btn:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .topnav {
+        overflow: hidden;
+        position: relative;
+      }
+
+    .topnav #links {
+        display: none;
+      }
+
+      .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 2.5rem;
+        top: 2rem;
+        width: 1rem;
+        text-decoration: none;
+      }
+
+      .icon i {
+        font-size: 1.5rem;
+        color: black;
+        background: none;
+      }
+
+    .nav-links a {
+        display: block;
+        padding-top: 1rem;
+    }
+
+
     .profile {
         padding-left: 2rem;
         padding-right: 0;
@@ -669,6 +705,58 @@ form .btn:hover {
     .skill-content {
         flex-direction: column;
 
+    }
+
+    .skills-items {
+        width: 90%;
+        margin-top: 1.5rem;
+    }
+
+    .skills-items ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .skills-items ul li {
+        width: 45%;
+        margin: .5rem auto;
+    }
+
+    #skill-html {
+        margin-left: 0;
+    }
+    
+    #skill-graphics {
+        margin-left: 0 ;
+    }
+    
+    #skill-adobe {
+        margin-left: 0;
+    }
+    
+    #skill-comm {
+        margin-left: 0;
+    }
+    
+    #skill-prob {
+        margin-left: 0;
+    }
+    
+    #skill-think {
+        margin-left: 0;
+    }
+    
+    #skill-create {
+        margin-left: 0;
+    }
+    
+    #skill-org {
+        margin-left: 0;
+    }
+    
+    #skill-office {
+        margin-left: 0;
     }
 
     .links i {
@@ -780,5 +868,103 @@ form .btn:hover {
     }
 }
 
+@media only screen and (max-width: 590px) {
+    .skills-img {
+        width: 17rem;
+        height: 17rem;
+    }
+
+    .skills-img img {
+        width: 14rem;
+        padding-left: 1.8rem;
+    }
+
+    .skills-items ul li {
+        width: 95%;
+        margin: .5rem auto;
+    }
+
+}
+
 
 /*Styling for the portfolio page*/
+
+.back-header {
+    height: 5.4rem;
+}
+
+.portfolio-welcome {
+    background-image: url("https://res.cloudinary.com/solarrays/image/upload/v1621552794/Portfolio%20Website/jess-bailey-l3N9Q27zULw-unsplash_uz9qmh.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; 
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 10rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-welcome h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #222;
+    font-family: heebo,sans-serif;
+    font-weight: 700;
+}
+
+.portfolio-welcome p {
+    font-family: roboto,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(83, 79, 79);
+    margin-bottom: 40px;
+}
+
+.main-body-container {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.main-body-container div {
+    width: 13rem;
+    height: 13rem;
+    background-color: white;
+    border-radius: 7px;
+    padding: 1rem 2rem 2rem 2rem;
+    margin-top: 1rem;
+}
+
+.main-body-container div h3 {
+        font-size: 21px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-family: heebo, sans-serif;
+        font-weight: 700;
+}
+
+.main-body-container div h5 {
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.main-body-container div p {
+    font-size: 15px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    font-style: italic;
+}
