@@ -34,7 +34,7 @@ nav {
     list-style-type: none;
     display: inline-flex;
     justify-content: space-evenly;
-    margin-right: 30px;
+    margin-right: 1.2rem;
 }
 
 .nav-links {
@@ -48,7 +48,7 @@ nav {
 #links a {
     text-decoration: none;
     color: white;
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 600;
 }
 
@@ -620,6 +620,10 @@ form .btn:hover {
 }
 
 @media only screen and (max-width: 870px) {
+    .nav-links a {
+        margin-right: .8rem;
+    }
+
     .skills-img {
         width: 20rem;
         height: 20rem;
@@ -641,12 +645,22 @@ form .btn:hover {
 
 @media only screen and (max-width: 768px) {
     .topnav {
-        overflow: hidden;
         position: relative;
       }
 
     .topnav #links {
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        z-index: 1;
+        padding-left: 1rem;
+        margin-top: 21.7rem;
+        margin-right: -1.5rem;
+        padding-bottom: 1rem;
+        
       }
 
       .topnav a.icon {
@@ -664,7 +678,7 @@ form .btn:hover {
         background: none;
       }
 
-    .nav-links a {
+    #links a {
         display: block;
         padding-top: 1rem;
     }
