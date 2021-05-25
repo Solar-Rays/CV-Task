@@ -45,7 +45,7 @@ nav {
     display: none;
 }
 
-#links a {
+.nav-links a {
     text-decoration: none;
     color: white;
     font-size: 1.25em;
@@ -955,7 +955,7 @@ form .btn:hover {
     justify-content: space-around;
     margin: auto;
     flex-wrap: wrap;
-    padding: 4rem;
+    padding: 3rem 2rem;
 }
 
 .main-body-container div {
@@ -989,4 +989,73 @@ form .btn:hover {
     font-weight: 400;
     letter-spacing: 0.8px;
     font-style: italic;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 695px) {
+    .overlay h3 {
+        font-size: 2rem;
+    }
+
+    .overlay p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .overlay h3 { 
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .overlay {
+        padding: 8rem 1.5rem;
+    }
+
+    .overlay h3 {
+        font-size: 1.5rem;
+    }
+
+    .overlay p {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .overlay {
+        padding: 7rem 1rem;
+    }
+    
+    .overlay h3 {
+        font-size: 1.5rem;
+    }
+
+    .overlay p {
+        font-size: .8rem;
+    }
+
+    .main-body-container div h5 {
+        font-size: .85rem;
+    }
+
+    .main-body-container div p {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .overlay {
+        padding: 7rem 1rem;
+    }
+
+    .overlay h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .main-body-container {
+        padding: 2rem 1.1rem;
+    }
 }
