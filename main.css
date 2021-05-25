@@ -904,6 +904,7 @@ form .btn:hover {
     .skills-items ul li {
         width: 95%;
         margin: .5rem auto;
+        text-align: center;
     }
 
 }
